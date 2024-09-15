@@ -1,0 +1,19 @@
+body{
+  background-color: blue;
+}
+
+.red-text{
+  color: red;
+}
+
+#main{
+  color: green;
+}
+
+p[draggable = true]{
+  color: red;
+}
+
+p[draggable = false]{
+  color: gray;
+}

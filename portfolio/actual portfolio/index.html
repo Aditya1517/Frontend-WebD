@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/d666fe05b1.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./personal-portfolio-img/images/mylogo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#my-work">Portfilio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi , I am <span> Aditya </span><br> Mohite From India</h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------------About---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./personal-portfolio-img/images/medium.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tile">About Me</h1>
+                    <p>Amidst the bustling cityscape, a lone figure stood, lost in thought. The city streets echoed with the symphony of life, each step a beat in the grand composition of urban existence. Buildings soared into the sky, their facades catching the golden rays of the setting sun. People hurried past, their faces a mosaic of emotions, each with a story untold. The air was alive with the scent of freshly brewed coffee mingling with the distant notes of laughter. In this tapestry of moments, the solitary figure found solace, a fleeting pause in the whirlwind of time</p>
+                    
+                    <div class="tab-tile">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development   </span><br>Building Andriod/IOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development   </span><br>Building Andriod/IOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development   </span><br>Building Andriod/IOS apps</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------Services------------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tile">My Services</h1>
+            <div class="serverices-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Amidst the bustling cityscape, a lone figure stood, lost in thought. The city streets echoed with the symphony of life, each step a beat in the grand composition of urban existence.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Buildings soared into the sky, their facades catching the golden rays of the setting sun. People hurried past, their faces a mosaic of emotions, each with a story untold. The air was alive with the scent of freshly brewed coffee mingling with the distant notes of laughter.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>The air was alive with the scent of freshly brewed coffee mingling with the distant notes of laughter. In this tapestry of moments, the solitary figure found solace, a fleeting pause in the whirlwind of time
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------My Work---------------- -->
+    <div id="my-work">
+        <div class="container">
+            <h1 class="sub-tile">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./personal-portfolio-img/images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The air was alive with the scent of freshly brewed coffee mingling with the distant notes of laughter.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./personal-portfolio-img/images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The air was alive with the scent of freshly brewed coffee mingling with the distant notes of laughter.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./personal-portfolio-img/images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p>The air was alive with the scent of freshly brewed coffee mingling with the distant notes of laughter.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- --------------Contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tile">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>contact@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>1234567890</p>
+                    <div class="socil-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./personal-portfolio-img/images/Aditya_Mohite_Resume.pdf" download target="_blank" class="btn ">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name:" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            copy-right by aditya
+        </div>
+    </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzH06jiHIycRzYuNvX1sU3hxRI9s63P4S_k0OIOj1KkzuwyGvRqaHaut-v-Kqx2EJOT/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
